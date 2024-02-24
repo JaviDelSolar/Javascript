@@ -1,0 +1,64 @@
+.imagen {
+    display: flex;
+    justify-content: center;
+    background-color: #A2E8C5;
+}
+
+.container{
+    background-color: #A2E8C5;
+}
+
+.mi_foto {
+    width: 200px;
+    border-radius: 50%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px ;
+}
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A2E8C5;
+}
+
+.parrafo h1 {
+    margin-bottom: 1px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+    margin: 10px
+}
+
+.like {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like-btn {
+    color: white;
+    background-color: #FF69B4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.like-count {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
