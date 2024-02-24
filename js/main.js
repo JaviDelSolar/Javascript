@@ -11,6 +11,10 @@ likeBtns.forEach(btn => {
         let likes = parseInt(likeCount.textContent);
         likes++;
         likeCount.textContent = likes + ' Me gusta';
+
+        alert('¡Gracias por tu Me gusta!');
     });
 });
+
+
 
