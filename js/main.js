@@ -21,7 +21,7 @@ likeBtns.forEach((btn, index) => {
         if (totalLikes === 1) {
             alert('¡Gracias por tu primer Me gusta!');
         } else if (totalLikes === 3) {
-            alert('¡Muchas gracias! Ya me has 3 Me gusta');
+            alert('¡Muchas gracias! Ya me has dado 3 Me gusta');
         } else {
             alert('¡Gracias por tu Me gusta!');
         }
@@ -29,11 +29,11 @@ likeBtns.forEach((btn, index) => {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const name = prompt('Por favor, ingresa tu nombre:');
+    const nombre = prompt('Por favor, ingresa tu nombre:');
     const saludoDiv = document.getElementById('saludo');
 
-    if (name) {
-        saludoDiv.textContent = '¡Hola ' + name + ', soy Rami!';
+    if (nombre) {
+        saludoDiv.textContent = '¡Hola ' + nombre + ', soy Rami!';
     } else {
         saludoDiv.textContent = 'Hola, soy Rami.';
     }
