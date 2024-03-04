@@ -1,20 +1,29 @@
+#saludo {
+    font-size: 24px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .imagen {
     display: flex;
     justify-content: center;
     background-color: #A2E8C5;
 }
 
-.container{
+.container {
     background-color: #A2E8C5;
 }
 
 .mi_foto {
     width: 200px;
     border-radius: 50%;
-    display: block; 
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px ;
+    margin-top: 30px;
 }
 
 .parrafo {
@@ -28,12 +37,12 @@
     margin-bottom: 1px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
 }
 
-.foto{
+.foto {
     display: flex;
     justify-content: center;
     align-items: center;
