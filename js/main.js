@@ -21,7 +21,7 @@ likeBtns.forEach((btn, index) => {
         if (totalLikes === 1) {
             alert('¡Gracias por tu primer Me gusta!');
         } else if (totalLikes === 3) {
-            alert('¡Muchas gracias! Ya me has dado 3 Me gusta.');
+            alert('¡Muchas gracias! Ya me has 3 Me gusta');
         } else {
             alert('¡Gracias por tu Me gusta!');
         }
