@@ -10,11 +10,11 @@
 .imagen {
     display: flex;
     justify-content: center;
-    background-color: #A2E8C5;
+    background-color:;
 }
 
 .container {
-    background-color: #A2E8C5;
+    background-color:;
 }
 
 .mi_foto {
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #A2E8C5;
+    background-color: ;
 }
 
 .parrafo h1 {
